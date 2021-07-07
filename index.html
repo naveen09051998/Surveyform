@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>surveyform</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        span{
+            color: red;
+        }
+       div{
+            width: 850px;
+            border: 1px solid black;
+            padding: 10px;
+            margin-left: 250px;
+            margin-right: 200px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            text-align: left;
+            margin:auto;
+        }
+
+        .checked {
+        color: orange;
+        }
+       
+       
+    </style>
+</head>
+<body>
+     
+    <div>
+        <b>Name<span>*</span></b><br>
+        <input type="text" style="padding-left: 0px;" id="fname" name="fname" required>
+        <input type="text" style="padding-left: 20px;" id="lname" name="lname"><br>
+        <label for="fname">First</label>
+        <label for="lname" style="padding-left: 140px;">Last</label><br><br>
+        <b>Email<span>*</span></b><br>
+        <input type="text" max="50" size="50"><br><br>
+        <b>Your Experience<span>*</span></b><br>
+
+
+
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+
+        <p>Overall,how would you rate your experience with us?</p><br>
+
+        <b>How Satisfied are you with<span>*</span></b><br><br>
+
+        <table>
+            <tr>
+                <td></td>
+                <td style="padding-left: 150px;">Very Unsatisfied</td>
+                <td style="padding-left: 40px;">Unsatisfied</td>
+                <td style="padding-left: 40px;">Neutral</td>
+                <td style="padding-left: 40px;">Satisfied</td>
+                <td style="padding-left: 20px;">Very Satisfied</td>
+            </tr>
+            <tr>
+                <td>Purchase</td>
+                <td style="padding-left: 150px;">
+                    <input type="radio" name="" value="1">
+                </td>
+                <td style="padding-left: 50px;">
+                    <input type="radio" name="" value="1">
+                </td>
+                <td style="padding-left: 50px;">
+                    <input type="radio" name="" value="1">
+                </td>
+                <td style="padding-left: 50px;">
+                    <input type="radio" name="" value="1">
+                </td>
+                <td style="padding-left: 50px;">
+                    <input type="radio" name="" value="1">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Service</td>
+                <td style="padding-left: 150px;">
+                    <input type="radio" name="" value="1">
+                </td>
+                <td style="padding-left: 50px;">
+                    <input type="radio" name="" value="1">
+                </td>
+                <td style="padding-left: 50px;">
+                    <input type="radio" name="" value="1">
+                </td>
+                <td style="padding-left: 50px;">
+                    <input type="radio" name="" value="1">
+                </td>
+                <td style="padding-left: 50px;">
+                    <input type="radio" name="" value="1">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Company Overall</td>
+                <td style="padding-left: 150px;">
+                    <input type="radio" name="" value="1">
+                </td>
+                <td style="padding-left: 50px;">
+                    <input type="radio" name="" value="1">
+                </td>
+                <td style="padding-left: 50px;">
+                    <input type="radio" name="" value="1">
+                </td>
+                <td style="padding-left: 50px;">
+                    <input type="radio" name="" value="1">
+                </td>
+                <td style="padding-left: 50px;">
+                    <input type="radio" name="" value="1">
+                </td>
+            </tr>
+        </table>
+
+        <b>How Likely you to<span>*</span></b><br><br>
+
+        <table>
+            <tr>
+                <td></td>
+                <td style="padding-left: 150px;">Very Unlikely</td>
+                <td style="padding-left: 50px;">Unlikely</td>
+                <td style="padding-left: 50px;">Neutral</td>
+                <td style="padding-left: 50px;">likely</td>
+                <td style="padding-left: 50px;">Very likely</td>
+            </tr>
+            <tr>
+                <td>Buy from us again</td>
+                <td style="padding-left: 150px;">
+                    <input type="radio" name="" value="1">
+                </td>
+                <td style="padding-left: 50px;">
+                    <input type="radio" name="" value="1">
+                </td>
+                <td style="padding-left: 50px;">
+                    <input type="radio" name="" value="1">
+                </td>
+                <td style="padding-left: 50px;">
+                    <input type="radio" name="" value="1">
+                </td>
+                <td style="padding-left: 50px;">
+                    <input type="radio" name="" value="1">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Recommend our <br>product to others.</td>
+                <td style="padding-left: 150px;">
+                    <input type="radio" name="" value="1">
+                </td>
+                <td style="padding-left: 50px;">
+                    <input type="radio" name="" value="1">
+                </td>
+                <td style="padding-left: 50px;">
+                    <input type="radio" name="" value="1">
+                </td>
+                <td style="padding-left: 50px;">
+                    <input type="radio" name="" value="1">
+                </td>
+                <td style="padding-left: 50px;">
+                    <input type="radio" name="" value="1">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Recommend our <br>company to others</td>
+                <td style="padding-left: 150px;">
+                    <input type="radio" name="" value="1">
+                </td>
+                <td style="padding-left: 50px;">
+                    <input type="radio" name="" value="1">
+                </td>
+                <td style="padding-left: 50px;">
+                    <input type="radio" name="" value="1">
+                </td>
+                <td style="padding-left: 50px;">
+                    <input type="radio" name="" value="1">
+                </td>
+                <td style="padding-left: 50px;">
+                    <input type="radio" name="" value="1">
+                </td>
+            </tr>
+        </table><br>
+
+        
+        <label for="w3"><b>Additional Comments or Suggestions</b><br></label>
+       <textarea id = "w3" rows="5" cols="110">
+           </textarea><br>
+
+           <input type="submit" value="Submit"><br>
+           </div>
+</body>
+</html>
